@@ -1,0 +1,155 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Pana Cloud</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body takes at least 100% of the viewport height */
+        }
+        header {
+            background-color: rgb(83, 162, 182);
+            text-align: center;
+            font-size: 30px;
+            border-radius: 28px;
+            width: 70%;
+            padding: 20px 0;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        header nav a {
+            color: rgb(235, 221, 221);
+            text-decoration: none;
+            padding: 0 20px;
+        }
+        header nav a:hover {
+            color: black; /* Change color to black on hover */
+        }
+        header img {
+            height: 70px;
+            border-radius: 90%;
+            margin-left: 20px;
+        }
+        .link {
+            display: flex;
+            justify-content: center;
+        }
+      
+        #body {
+            flex: 1; /* Ensures the body content stretches to fill available space between header and footer */
+            background-color: rgb(206, 206, 235);
+            padding: 40px;
+            width: 70%;
+            margin: 0 auto;
+            text-align: justify;
+            border-radius: 20px;
+        }
+        #body img{
+            height: 250px;
+            border-radius: 70px;
+            margin-left: 50%;
+            transform: translateX(-50%); /* Center the image */
+        }
+        #body p {
+            font-size: 18px;
+            margin-top: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .footer {
+            background-color: rgb(83, 162, 182);
+            width: 70%;
+            padding: 20px 0;
+            margin: 20px auto;
+            height: auto; /* Adjusted for more content */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: justify;
+        }
+        .footer {
+            background-color: rgb(83, 162, 182);
+            width: 70%;
+            padding: 20px 0;
+            margin: 20px auto;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: rgb(51, 46, 46);
+            flex-direction: column;
+            text-align: center;
+            font-size: 14px;
+        }
+        .footer p {
+            margin: 5px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/1630646185869.jpeg" alt="Pana Cloud Logo">
+        <nav>
+            <div class="link">
+                <a href="/" target="_blank">Home</a>
+                <a href="/About.html" target="_blank">About</a>
+                <a href="/contact.html" target="_blank">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div id="body">
+       <img src="/2.jpg" alt="Profile Picture">
+       <p>
+           Hello, I am a passionate software developer currently pursuing my undergraduate degree in Software Engineering at Iqra University Main Campus, Karachi. Alongside my academic journey, I am also enrolled in several prestigious programs, including the GIAIC Governor Initiative for IT, where I am enhancing my skills in cutting-edge technologies. 
+       </p>
+       <p>
+           Additionally, I am proud to be part of the Saylani Mass IT Program, recognized as Pakistan's top institute for modern web development. Through these experiences, I have gained hands-on knowledge and expertise in modern web development practices, ensuring that I stay at the forefront of industry trends.
+       </p>
+       <p>
+           My goal is to continually improve my abilities, contribute to innovative projects, and apply my knowledge to real-world applications. Feel free to reach out if you'd like to collaborate or learn more about my journey!
+       </p>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <p>Phone: +123-456-7890 | Email: info@yourcompany.com</p>
+            <p>Address: 123, Main Street, City, Country</p>
+            <p>
+                <a href="https://github.com/SOMANcode786/desktop-tutorial" target="_blank">GitHub</a> 
+                <a href="https://www.linkedin.com/in/muhammad-soman-soman-092613320/" target="_blank">LinkedIn</a>
+            </p>
+            <p>&copy; 2024. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
